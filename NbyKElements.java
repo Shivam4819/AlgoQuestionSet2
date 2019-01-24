@@ -30,7 +30,7 @@ public class NbyKElements {
                 count++;
             }
         }
-        
+        System.out.println("");
     }
     
 }

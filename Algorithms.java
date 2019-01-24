@@ -22,6 +22,10 @@ public class Algorithms {
         System.out.println("ques2->");
         NbyKElements n=new NbyKElements();
         n.findElements();
+        
+        System.out.println("ques3->");
+        FirstRepeatingElement first=new FirstRepeatingElement();
+        first.findElement();
     }
     
 }
