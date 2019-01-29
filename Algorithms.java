@@ -17,25 +17,28 @@ public class Algorithms {
     public static void main(String[] args) {
         // TODO code application logic here
         FindAPair find=new FindAPair();
-        //find.findAPair();
+      //  find.findAPair();
         
         System.out.println("ques2->");
         NbyKElements n=new NbyKElements();
-       // n.findElements();
+      //  n.findElements();
         
         System.out.println("ques3->");
         FirstRepeatingElement first=new FirstRepeatingElement();
-       // first.findElement();
+      //  first.findElement();
         
         System.out.println("ques4->");
         AlmostSorted sorted=new AlmostSorted();
-       // sorted.findElement();
+      //  sorted.findElement();
        
        KClosestElements k=new KClosestElements();
-       //k.kClosest();
+     //  k.kClosest();
        
        BinaryArray binary=new BinaryArray();
-       binary.findOne();
+      // binary.findOne();
+      
+      SumIsClosest sum=new SumIsClosest();
+      sum.findPair();
     }
     
 }

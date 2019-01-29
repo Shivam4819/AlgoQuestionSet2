@@ -11,14 +11,10 @@ package algorithms;
  */
 public class CommonElements {
     public void findCommonElements(){
-        int arr1[]={1, 5, 5};
+        int arr1[]={5,5,10,20};
         int arr2[]={3, 4, 5, 5, 10};
-        int arr3[]={5, 5, 10, 20};
+        int arr3[]={1,5,5};
         int flag=0;
-        for(int i=0;i<arr1.length;i++){
-            if(arr1[i]>=arr2[0]){
-                
-            }
-        }
+        
     }
 }

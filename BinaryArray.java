@@ -25,5 +25,23 @@ public class BinaryArray {
         if(flag==0)
             count=0;
         System.out.println("count->"+count);
+        int n=arr.length;
+        System.out.println(method2(arr, 0, n-1));
+    }
+    public int method2(int arr[],int low,int high){
+      if(high>=low){
+          int mid=(low+high)/2;
+          
+          if(arr[mid]==1&&arr[mid+1]==0)
+              return mid+1;
+          
+          if(arr[mid]==1){
+              return method2(arr, mid+1, high);
+          }
+          else
+              return method2(arr, low, mid-1);
+      }
+        
+        return 0;
     }
 }
